@@ -18,7 +18,7 @@ The pipeline trains a grid of (maze × meta-period × seed) runs, logs every run
 | `run_sweep.py`            | Runs the full meta-period × seed matrix for one maze; resumable                                                                         |
 | `run_logger.py`           | Per-run logging (`config.json`, CSVs, `summary.json`, model checkpoints)                                                                |
 | `visualize_results.py`    | Figures and results table from a finished sweep                                                                                         |
-| `watch_pointmaze_hiro.py` | Render a trained agent (see [Known issues](#known-issues))                                                                              |
+| `watch_pointmaze_hiro.py` | Render a trained agent                                                                              |
 
 ## Installation
 
