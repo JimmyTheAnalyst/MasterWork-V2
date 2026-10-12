@@ -187,6 +187,3 @@ This work builds on:
 - Fujimoto, S., van Hoof, H., & Meger, D. (2018). Addressing function approximation error in actor-critic methods. _ICML, PMLR 80_.
 - Fu, J., Kumar, A., Nachum, O., Tucker, G., & Levine, S. (2020). D4RL: Datasets for deep data-driven reinforcement learning. _arXiv:2004.07219_.
 
-## License
-
-MIT. See [`LICENSE`](LICENSE).
