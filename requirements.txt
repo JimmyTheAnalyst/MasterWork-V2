@@ -1,0 +1,17 @@
+# Python 3.10–3.12 Python 3.13 is not supported:
+# matplotlib 3.8.4 has no prebuilt wheels for it.
+# These are the exact versions used for the thesis experiments.
+
+torch==2.6.0
+gymnasium==1.2.3
+gymnasium-robotics==1.4.2
+mujoco==3.7.0
+numpy==2.2.6
+matplotlib==3.8.4
+
+# GPU note: `pip install -r requirements.txt` installs the default torch build for
+# your platform (CPU-only on Windows and macOS). For the CUDA 12.6 build used in the
+# thesis, install torch first:
+#   pip install torch==2.6.0 --index-url https://download.pytorch.org/whl/cu126
+# then run `pip install -r requirements.txt`.
+# A GPU is optional: the networks are small and the code also runs on CPU.
